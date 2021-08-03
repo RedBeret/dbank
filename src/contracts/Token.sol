@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Token is ERC20 {
   address public minter;
-
+//add minter variable
   event MinterChanged(address indexed from, address to);
 
   constructor() public payable ERC20("Decentralized Bank Currency", "DBC") {
